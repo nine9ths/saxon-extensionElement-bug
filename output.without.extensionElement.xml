@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <links xmlns:c="http://schema.highwire.org/Compound"
+       xmlns:app="http://www.w3.org/2007/app"
+       xmlns:hwp="http://schema.highwire.org/Journal"
+       xmlns:l="http://schema.highwire.org/Linking"
+       xmlns:nlm="http://schema.highwire.org/NLM/Journal"
+       xmlns:r="http://schema.highwire.org/Revision"
+       xmlns:x="http://www.w3.org/1999/xhtml"
+       xmlns:atom="http://www.w3.org/2005/Atom">
+   <atom:link c:role="http://schema.highwire.org/Dataset"
+              href="/foo.atom"
+              rel="http://schema.highwire.org/Compound#parent"/>
+   <atom:link href="/foo/data/2014-033425.atom" rel="self"/>
+   <atom:link href="/foo/data/2014-033425.atom" rel="edit"/>
+   <atom:link c:role="http://schema.highwire.org/Publishing/builtin"
+              href="/foo/data/2014-033425"/>
+   <atom:link c:role="http://schema.highwire.org/Publishing/builtin"
+              href="/foo/data/2014-033425.atom?form=feed"
+              rel="alternate"
+              type="application/atom+xml; type=feed"/>
+   <atom:link href="/foo/data/2014-033425.atomvtx"
+              rel="http://schema.highwire.org/Publishing#model"/>
+   <atom:link c:role="http://schema.highwire.org/variant/foo"
+              href="/foo/data/2014-033425.foo.xml"
+              rel="alternate"
+              type="application/xml"/>
+   <atom:link c:role="http://schema.highwire.org/variant/foo"
+              href="/foo/data/2014-033425.foo.xml"
+              rel="http://schema.highwire.org/Publishing#edit-variant"
+              type="application/xml"/>
+   <atom:link c:role="http://schema.highwire.org/variant/locations"
+              href="/foo/data/2014-033425.locations.kml"
+              rel="alternate"
+              type="application/vnd.google-earth.kml+xml"/>
+   <atom:link c:role="http://schema.highwire.org/variant/locations"
+              href="/foo/data/2014-033425.locations.kml"
+              rel="http://schema.highwire.org/Publishing#edit-variant"
+              type="application/vnd.google-earth.kml+xml"/>
+</links>
+
