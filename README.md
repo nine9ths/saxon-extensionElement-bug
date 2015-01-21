@@ -11,7 +11,7 @@ However, when run with the included [saxon.config](saxon.config) which declares 
 
 Confusingly, while using the extensionElement config, uncommenting the xsl:message near the end of the stylesheet with the same @select as the xsl:sequence results in the desired output, i.e. the link is no longer omitted.
 
-I'm seeing this behavior with Saxon 9.5.1.7 bundled with Oxygen 16.1 (build 2014112517) although I also have seen it in Oxygen 16.0 and with Saxon our dev Saxon-EE 9.5.1.5J jar.
+I'm seeing this behavior with Saxon 9.5.1.7 bundled with Oxygen 16.1 (build 2014112517) although I also have seen it in Oxygen 16.0 and with our dev Saxon-EE 9.5.1.5J jar.
 
-This example has been distilled out down from a much more complicated stylesheet which *did* make use of custom extension elements and interacted with a database. However, during the distillation process we discovered that it was simply the act of registering an extension element that triggered the buggy behavior.
+This example has been distilled down from a much more complicated stylesheet which *did* make use of custom extension elements and interacted with a database. However, during the distillation process we discovered that it was simply the act of registering an extension element that triggered the buggy behavior.
 
